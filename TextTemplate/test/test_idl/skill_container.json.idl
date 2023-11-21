@@ -1,0 +1,28 @@
+[root]
+class SkillContainer{
+    Dict<string, SkillData> mapDesignData;
+}
+
+class SkillData{
+    string id;
+    string name;
+    string desc;
+    string descSpecial;
+    string icon;
+    int memorySlot;//记忆槽
+    int actionPt;//行动点
+    float cd;
+    string resistedBy;//被何种护甲抵抗
+    float range;
+    string category;
+    List<SkillEffectInfo> effList;
+}
+
+class SkillEffectInfo{
+    string effId;
+    string effType;
+    string locateType;
+    float targetPosOffsetX;
+    float targetPosOffsetY;
+    float targetPosOffsetZ;
+}

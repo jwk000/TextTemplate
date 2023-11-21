@@ -1,0 +1,7 @@
+@{FOREACH(Row IN ${Table.RowList})}
+@{ONELINE}
+@{FOREACH(Mul IN ${Row.MulList})}
+${Mul.a}x${Mul.b}=${Mul.c} 
+@{END_FOREACH}
+@{END_ONELINE}
+@{END_FOREACH}

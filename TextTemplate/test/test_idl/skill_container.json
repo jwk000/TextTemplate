@@ -1,0 +1,57 @@
+{
+    "mapDesignData": {
+        "Earth1": {
+            "id": "Earth1",
+            "name": "落石术",
+            "desc": "一块被注满粘油的巨石，造成<color=#753800>%[EarthDamage]大地伤害</color>。巨石在落点生成油污区域。",
+            "descSpecial": "伤害值基于你的等级以及来自智力的加成。",
+            "icon": null,
+            "memorySlot": 1,
+            "actionPt": 2,
+            "cd": 3.0,
+            "resistedBy": "MagicalArmor",
+            "range": 15.0,
+            "category": "CategoryEarth",
+            "effList": null
+        },
+        "Fire1": {
+            "id": "Fire1",
+            "name": "灼烧匕首",
+            "desc": "向选中的目标区域投掷三把燃烧的匕首，每把匕首生成一处燃烧地表并造成<color=#fe6e27>%[FireDamage]火焰伤害</color>。",
+            "descSpecial": "附加燃烧状态，持续2回合。<br>伤害值基于你的等级以及来自智力的加成。",
+            "icon": null,
+            "memorySlot": 1,
+            "actionPt": 2,
+            "cd": 3.0,
+            "resistedBy": "MagicalArmor",
+            "range": 15.0,
+            "category": "CategoryFire",
+            "effList": [
+                {
+                    "effId": "Fire1-P1",
+                    "effType": "Projectile",
+                    "locateType": "Standalone",
+                    "targetPosOffsetX": 0.0,
+                    "targetPosOffsetY": 0.0,
+                    "targetPosOffsetZ": 0.0
+                },
+                {
+                    "effId": "Fire1-P1",
+                    "effType": "Projectile",
+                    "locateType": "Standalone",
+                    "targetPosOffsetX": 0.0,
+                    "targetPosOffsetY": 0.0,
+                    "targetPosOffsetZ": 0.0
+                },
+                {
+                    "effId": "Fire1-P1",
+                    "effType": "Projectile",
+                    "locateType": "Standalone",
+                    "targetPosOffsetX": 0.0,
+                    "targetPosOffsetY": 0.0,
+                    "targetPosOffsetZ": 0.0
+                }
+            ]
+        }
+    }
+}

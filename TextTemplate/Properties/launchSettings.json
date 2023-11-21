@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TextTemplate": {
+      "commandName": "Project",
+      "workingDirectory": "F:\\TextTemplate\\TextTemplate\\test"
+    }
+  }
+}
